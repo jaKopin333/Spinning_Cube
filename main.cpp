@@ -85,7 +85,7 @@ printf("\x1b[2J");
 
         A += 0.003;
         B += 0.003;
-        usleep(1500);
+        usleep(1000);
     }
     return  0;
 }
